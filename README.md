@@ -4,7 +4,7 @@ This project generates perfect mazes using **Kruskal's algorithm** implemented i
 
 ---
 
-## Maze image output 
+## Maze image output (exemplar)
 ![maze](https://github.com/user-attachments/assets/c6fba916-d17a-4dbe-9174-30bd56a93183)
 
 ---
