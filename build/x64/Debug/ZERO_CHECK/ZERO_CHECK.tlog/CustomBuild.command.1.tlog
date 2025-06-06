@@ -1,0 +1,10 @@
+^C:\USERS\ALIMB\ONEDRIVE\DOWNLOADS\MAZE_PROJECT\BUILD\CMAKEFILES\B18602B299DD23D69242C86158BFE2ED\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alimb/OneDrive/Downloads/maze_project -BC:/Users/alimb/OneDrive/Downloads/maze_project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/alimb/OneDrive/Downloads/maze_project/build/MazeGenerator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
