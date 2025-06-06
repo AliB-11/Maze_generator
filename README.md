@@ -38,18 +38,28 @@ The project is divided into two main parts:
 
 Clone the Repository
 
-mkdir build
+mkdir build 
+
 cd build
+
 cmake ..
-cmake --build . --config Debug
+
+cmake --build . 
+
 ./Debug/maze_generator.exe
 
+
 Ensure Python is installed and Pillow is available:
+
 pip install pillow
 
+
 Then run the visualizer:
+
 python visualize.py
 
+
 This generates a maze image:
+
 maze.png
 
